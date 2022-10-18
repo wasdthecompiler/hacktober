@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(65, 69, 76);
+    z-index: 99999;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav ul li svg {
+    cursor: pointer;
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.end {
+    width: 100%;
+    background-color: rgb(65, 69, 76);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    margin: auto;
+    color: white;
+    font-size: medium;
+}
+
+.post{
+    background-color: rgb(65, 69, 76);
+    padding: 2px;
+    margin-bottom: 60px;
+}
+
+.article{
+    background-color: white;
+    padding: 20px;
+}
+
+.article img{
+    display: block;
+    max-width:250px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#bugs {
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background: rgb(65, 69, 76);
+    box-sizing: border-box;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#logo{
+    height: 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#ending{
+    width: 100%;
+}
+
+#card{
+    background-color: rgb(65, 69, 76);
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: medium;
+}
+
