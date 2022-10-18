@@ -1,0 +1,30 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.posttitle {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.postcontent {
+    background-color: white;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.time {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
