@@ -12,13 +12,13 @@ git clone https://github.com/<your-username>/<your-fork-name>
 ### Step 3
 - Commit the changes (will additionally add the new changes).
  ```
- git commit -am 'Add some feature'
+ git commit -m 'Add some feature'
  ``` 
 
 ### Step 5
 - Push to the branch. 
 ```
-git push origin my-new-feature
+git push
 ```
 
 ### Step 6
